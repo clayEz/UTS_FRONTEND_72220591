@@ -1,0 +1,67 @@
+﻿@page "/courses"
+@using _72220591_UTS.Services
+@using _72220591_UTS.Models
+@inject CourseService CourseService
+@inject CategoryService CategoryService
+
+<h3>Courses</h3>
+
+<button @onclick="ShowCreateModal">Add Course</button>
+
+@if (courses != null)
+{
+    <table>
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Description</th>
+                <th>Category</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var course in courses)
+            {
+                <tr>
+                    <td>@course.Title</td>
+                    <td>@course.Description</td>
+                    <td>@course.Category?.Name</td>
+                    <td>
+                        <button @onclick="@(() => EditCourse(course.Id))">Edit</button>
+                        <button @onclick="@(() => DeleteCourse(course.Id))">Delete</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<Course> courses;
+    private List<Category> categories;
+
+    protected override async Task OnInitializedAsync()
+    {
+        courses = await CourseService.GetCoursesAsync();
+        categories = await CategoryService.GetCategoriesAsync();
+    }
+
+    private async Task ShowCreateModal()
+    {
+        var newCourse = new Course();
+        await CourseService.CreateCourseAsync(newCourse);
+        courses = await CourseService.GetCoursesAsync();
+    }
+
+    private async Task EditCourse(int id)
+    {
+        var course = await CourseService.GetCourseAsync(id);
+        // Logic to show edit modal (not implemented here)
+    }
+
+    private async Task DeleteCourse(int id)
+    {
+        await CourseService.DeleteCourseAsync(id);
+        courses = await CourseService.GetCoursesAsync();
+    }
+}

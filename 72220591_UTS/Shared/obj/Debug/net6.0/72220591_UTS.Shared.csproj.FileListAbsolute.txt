@@ -1,0 +1,13 @@
+C:\Users\M S I\source\repos\72220591_UTS\72220591_UTS\Shared\bin\Debug\net6.0\72220591_UTS.Shared.deps.json
+C:\Users\M S I\source\repos\72220591_UTS\72220591_UTS\Shared\bin\Debug\net6.0\72220591_UTS.Shared.dll
+C:\Users\M S I\source\repos\72220591_UTS\72220591_UTS\Shared\bin\Debug\net6.0\72220591_UTS.Shared.pdb
+C:\Users\M S I\source\repos\72220591_UTS\72220591_UTS\Shared\obj\Debug\net6.0\72220591_UTS.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M S I\source\repos\72220591_UTS\72220591_UTS\Shared\obj\Debug\net6.0\72220591_UTS.Shared.AssemblyInfoInputs.cache
+C:\Users\M S I\source\repos\72220591_UTS\72220591_UTS\Shared\obj\Debug\net6.0\72220591_UTS.Shared.AssemblyInfo.cs
+C:\Users\M S I\source\repos\72220591_UTS\72220591_UTS\Shared\obj\Debug\net6.0\72220591_UTS.Shared.csproj.CoreCompileInputs.cache
+C:\Users\M S I\source\repos\72220591_UTS\72220591_UTS\Shared\obj\Debug\net6.0\72220591_UTS.Shared.sourcelink.json
+C:\Users\M S I\source\repos\72220591_UTS\72220591_UTS\Shared\obj\Debug\net6.0\72220591_UTS.Shared.dll
+C:\Users\M S I\source\repos\72220591_UTS\72220591_UTS\Shared\obj\Debug\net6.0\refint\72220591_UTS.Shared.dll
+C:\Users\M S I\source\repos\72220591_UTS\72220591_UTS\Shared\obj\Debug\net6.0\72220591_UTS.Shared.pdb
+C:\Users\M S I\source\repos\72220591_UTS\72220591_UTS\Shared\obj\Debug\net6.0\ref\72220591_UTS.Shared.dll
+C:\Users\M S I\source\repos\72220591_UTS\72220591_UTS\Shared\obj\Debug\net6.0\72220591_UTS.Shared.csproj.AssemblyReference.cache
